@@ -6,7 +6,7 @@ import {
 export function Header() {
   return (
   
-      <div className="header">
+      <div className="header" id="header">
         <div className="nav-bar-logo-link-container">
           <Link to="/" ><img className="logo" src="/logo.jpg" alt="logo" /></Link>
           <ul className="link-container">

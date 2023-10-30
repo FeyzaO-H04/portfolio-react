@@ -1,6 +1,5 @@
-
-import { Header } from "../components/Header/header"
-/* import { Footer } from "../components/Footer/footer"  */
+import { Footer } from "../components/Footer/footer";
+import { Header } from "../components/Header/header" 
 import { Outlet } from "react-router-dom";
 
 
@@ -8,16 +7,13 @@ import { Outlet } from "react-router-dom";
 export function LayoutBase() {
   return (
     <>
-    <Header />
-  
+      <Header />
 
-   
       <div>
           <Outlet />
       </div>
      
-      <footer>bye</footer>
-     
+      <Footer />
     </>
   );
 }
