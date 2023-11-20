@@ -67,15 +67,9 @@
   gap: 28px;
 }
 
-.projects{
-  width: 310px;
-  height: 270px;
-  background-color: #5B8E70;
-}
-
 .projectImage{
   width: 310px;
-  height: 270px;
+  height: 200px;
   margin-top: 10px;
 }
 

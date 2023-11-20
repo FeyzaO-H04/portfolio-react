@@ -22,8 +22,6 @@ export function MainContent() {
           <a href="https://euphonious-sherbet-eed04d.netlify.app" target="_blank" rel="noopener noreferrer"><div><img className="projectImage" src="/city.image.png" alt="First project" /></div></a>
           <a href="https://astonishing-liger-68621f.netlify.app" target="_blank" rel="noopener noreferrer"><div><img className="projectImage" src="/planets.image.png" alt="Second project" /></div></a>
           <a href="https://aesthetic-marigold-be34f1.netlify.app" target="_blank" rel="noopener noreferrer"><div><img className="projectImage" src="/piano.image.png" alt="First project" /></div></a>
-      
-
         </div>
       </div>
     </div>
