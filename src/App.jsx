@@ -1,7 +1,6 @@
 import { LayoutBase } from "./pages/LayoutBase"
 import { LandingPage } from "./pages/LandingPage"
 import { About } from "./pages/About/about"
-import { Portfolio } from "./pages/Portfolio/portfolio"
 import { Certificates } from "./pages/Certificates/certificates"
 import { Contact } from "./pages/Contact/contact"
 import './App.css'
@@ -21,7 +20,6 @@ export function App() {
         <Route path='/' element={<LayoutBase />} >
           <Route index element={<LandingPage />} />
           <Route path='/about' element={<About />} />
-          <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/certificates' element={<Certificates />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<h1 className="not-found">404 Not Found</h1>} />

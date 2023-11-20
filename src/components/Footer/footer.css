@@ -15,7 +15,6 @@
   position: absolute;
   top: -45px;
   padding: 15px 25px 0 0;
-  
   box-shadow: 0px -9px 10px rgba(104, 104, 104, 0.25);
 }
 
@@ -42,7 +41,7 @@ html {
   list-style: none;
 }
 
-.footer-content ul a{
+.footer-pages{
   text-decoration: none;
   color: #6B6F73;
 }
@@ -60,6 +59,8 @@ html {
   color: #6B6F73;
 }
 
-.footer p{
+.footer-name{
   color: #6B6F73;
+  text-decoration: none;
 }
+

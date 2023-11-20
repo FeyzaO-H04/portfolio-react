@@ -1,0 +1,22 @@
+.about-page{
+  height: 100vh;
+  width: 1000px;
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 70px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  text-align: justify;
+}
+
+.about-page img{
+  width: 400px;
+  border-radius: 10px;
+}
+
+.about-page-text{
+
+}

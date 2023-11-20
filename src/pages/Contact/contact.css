@@ -1,0 +1,67 @@
+.contact-page{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 60px 50px;
+  margin-top: 30px;
+}
+
+input{
+  height: 30px;
+  width: 500px;
+  border-radius: 5px;
+  border: 2px solid #999999;
+  outline: none;
+}
+
+.contact--input{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+} 
+
+.contact--input label{
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.userMessage{
+ grid-row-start: 1;
+ grid-row-end: 3;
+ grid-column-start:2 ;
+}
+
+textarea{
+  resize: none;
+  border-radius: 5px;
+  border: 2px solid #999999;
+  outline: none;
+}
+
+button{
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  background-color: #5B8E70;
+}
+
+button:hover{
+  background-color: #719b82;
+}
+
+.contactButton{
+  text-align: right;
+  grid-column-start: 2;
+}
+
+
+
