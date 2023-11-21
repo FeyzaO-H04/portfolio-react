@@ -33,7 +33,7 @@
 }
 
 .main{
-  padding: 70px 0 100px 0;
+  padding: 70px 0 70px 0;
   background: rgba(241, 241, 241, 0.54);
   box-shadow: 0px -1px 5px rgba(104, 104, 104, 0.25);
 }
@@ -52,7 +52,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .border{
@@ -70,6 +70,18 @@
 .projectImage{
   width: 310px;
   height: 200px;
-  margin-top: 10px;
+  margin-top: 30px;
+}
+
+.project-container a{
+  text-decoration: none;
+}
+
+.project-container a h3{
+  color: black;
+}
+
+.project-container a p{
+  color: black;
 }
 

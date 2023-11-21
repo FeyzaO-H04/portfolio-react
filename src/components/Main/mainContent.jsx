@@ -19,9 +19,16 @@ export function MainContent() {
           <div className="border"></div>
         </div>
         <div className="project-container">
-          <a href="https://euphonious-sherbet-eed04d.netlify.app" target="_blank" rel="noopener noreferrer"><div><img className="projectImage" src="/city.image.png" alt="First project" /></div></a>
-          <a href="https://astonishing-liger-68621f.netlify.app" target="_blank" rel="noopener noreferrer"><div><img className="projectImage" src="/planets.image.png" alt="Second project" /></div></a>
-          <a href="https://aesthetic-marigold-be34f1.netlify.app" target="_blank" rel="noopener noreferrer"><div><img className="projectImage" src="/piano.image.png" alt="First project" /></div></a>
+          <a href="https://euphonious-sherbet-eed04d.netlify.app" target="_blank" rel="noopener noreferrer">
+            <img className="projectImage" src="/city.image.png" alt="First project" />
+            <h3>Current Weather</h3>
+            <p>Js work (API)</p>
+          </a>
+          <a href="https://astonishing-liger-68621f.netlify.app" target="_blank" rel="noopener noreferrer">
+            <img className="projectImage" src="/planets.image.png" alt="Second project" />
+            <h3>Weight on Other Planets Calculator</h3>
+            <p>Js work</p>
+          </a>
         </div>
       </div>
     </div>
