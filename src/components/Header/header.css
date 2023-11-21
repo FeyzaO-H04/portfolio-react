@@ -35,7 +35,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.link-container li a:hover{
+.link-container li a:hover, .link-container li a:focus{
   color: #a19f9e;
 }
 
